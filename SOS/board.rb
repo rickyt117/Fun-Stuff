@@ -113,7 +113,7 @@ class Board
                     win += 1
                 end
             end
-            if check_square(temp_recent - BOARD_MAX_INDEX + 2) == 'S'
+            if check_square(temp_recent - BOARD_MAX_INDEX) == 'S'
                 if check_square(temp_recent + BOARD_MAX_INDEX) == 'S'
                     win += 1
                 end
